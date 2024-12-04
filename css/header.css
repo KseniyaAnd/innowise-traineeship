@@ -55,13 +55,8 @@
 }
 
 .banner__content p {
-    font-size: 16px;
     font-family: 'NunitoSans', sans-serif;
     color: rgb( 120, 120, 120 );
-}
-
-.banner__content h1 {
-    font-size: 32px;
 }
 
 .banner__content {
