@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Montserrat_medium', sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat_medium';
+    src: url('../fonts/Montserrat_medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
