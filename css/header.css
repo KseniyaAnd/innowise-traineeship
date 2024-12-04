@@ -9,7 +9,7 @@
 }
 
 .nav__list {
-    justify-content: flex-end;
+    display: flex;
     gap: 20px;
 }
 
