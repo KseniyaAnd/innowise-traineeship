@@ -1,0 +1,36 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.about-us__content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-us__content h1,
+.about-us__content p {
+    text-align: center;
+}
+
+.about-us__content p {
+    font-size: 16px;
+    line-height: 1.502;
+    font-family: 'NunitoSans', sans-serif;
+    color: rgb( 120, 120, 120 );
+}
+
+.about-us__signature {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+    .about-us__content {
+        width: 400px;
+    }
+}
