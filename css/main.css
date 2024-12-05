@@ -40,6 +40,7 @@ h2 {
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'Montserrat_medium', sans-serif;
 }
 

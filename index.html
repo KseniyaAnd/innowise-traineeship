@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
@@ -32,10 +35,11 @@
             </div>
         </nav>
     </div>
-    <section class="banner">
+    <section class="banner" >
         <div class="banner__content">
             <h1>We Design and Develop</h1>
-            <p class="p-text-style">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing
+            <p class="p-text-style">We are a new design studio based in USA. We have over 20 years of combined
+                experience, and know a thing
                 or two about designing websites and mobile apps.</p>
             <button class="banner__button">
                 <a href="#work" class="banner__link">CONTACT US</a>
@@ -45,7 +49,7 @@
 
 </header>
 <main>
-    <section class="about-us">
+    <section class="about-us" data-aos="fade-up">
         <div class="about-us__content">
             <h2>About Us</h2>
             <p class="p-text-style">
@@ -59,7 +63,7 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" data-aos="fade-up">
         <div class="skills__wrapper">
             <div class="skills__content">
                 <h2>Professional Skills</h2>
@@ -96,7 +100,50 @@
         </div>
     </section>
 
+    <section class="work" data-aos="fade-up">
+        <div class="work__images">
+            <div class="work__images-wrapper" data-aos="fade-left">
+                <img src="img/work-img-1.png" class="work__image" alt="Work Image 1">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-left">
+                <img src="img/work-img-2.png" class="work__image" alt="Work Image 2">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-left">
+                <img src="img/work-img-3.png" class="work__image" alt="Work Image 3">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-left">
+                <img src="img/work-img-4.png" class="work__image" alt="Work Image 4">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-right">
+                <img src="img/work-img-5.png" class="work__image" alt="Work Image 5">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-right">
+                <img src="img/work-img-6.png" class="work__image" alt="Work Image 6">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-right">
+                <img src="img/work-img-7.png" class="work__image" alt="Work Image 7">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+            <div class="work__images-wrapper" data-aos="fade-right">
+                <img src="img/work-img-8.png" class="work__image" alt="Work Image 8">
+                <img src="img/eye.png" class="work__image-eye" alt="Work Image Eye">
+            </div>
+        </div>
+        <div class="work__loader">
+            LOAD MORE WORKS
+        </div>
+    </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </main>
 </body>
 </html>
