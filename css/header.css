@@ -1,4 +1,12 @@
 .header {
+    padding: 30px 70px;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header__container {
     display: flex;
     justify-content: space-between;
     margin: 30px 70px;
@@ -32,6 +40,37 @@
 
 .header__burger-icon:hover {
     fill: rgb(84, 208, 203);
+}
+
+.banner {
+    margin: 130px 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.banner__content p {
+    font-family: 'NunitoSans', sans-serif;
+    color: rgb( 120, 120, 120 );
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 420px;
+}
+
+.banner__button {
+    width: 150px;
+    font-size: 12px;
+    background-color: rgb(84, 208, 203);
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+}
+
+.banner__button:hover {
+    background-color: rgb(88, 213, 208);
 }
 
 @media (max-width: 960px) {

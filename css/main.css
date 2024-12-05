@@ -14,13 +14,61 @@ a {
     color: inherit;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Montserrat_medium', sans-serif;
+}
+
+button {
+    border: none;
+    font: inherit;
+    cursor: pointer;
+
+    width: 150px;
+    font-size: 12px;
+    background-color: rgb(84, 208, 203);
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+}
+
+button:hover {
+    background-color: rgb(88, 213, 208);
 }
 
 @font-face {
     font-family: 'Montserrat_medium';
     src: url('../fonts/Montserrat_medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('../fonts/NunitoSans.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
