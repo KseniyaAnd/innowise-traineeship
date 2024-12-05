@@ -49,11 +49,6 @@
     flex-direction: column;
 }
 
-.banner__content p {
-    font-family: 'NunitoSans', sans-serif;
-    color: rgb( 120, 120, 120 );
-}
-
 .banner__content {
     display: flex;
     flex-direction: column;

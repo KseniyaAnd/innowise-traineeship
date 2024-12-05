@@ -16,12 +16,6 @@
     }
 }
 
-.about-us__content p {
-    line-height: 1.502;
-    font-family: 'NunitoSans', sans-serif;
-    color: rgb(120, 120, 120);
-}
-
 .about-us__signature {
     display: flex;
     justify-content: center;
