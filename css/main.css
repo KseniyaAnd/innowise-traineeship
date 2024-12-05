@@ -35,8 +35,8 @@ h1 {
     font-size: 32px;
 }
 
-p {
-    font-size: 16px;
+h2 {
+    font-size: 32px;
 }
 
 body {
@@ -57,6 +57,13 @@ button {
 
 button:hover {
     background-color: rgb(88, 213, 208);
+}
+
+.p-text-style {
+    font-size: 16px;
+    line-height: 1.502;
+    font-family: 'NunitoSans', sans-serif;
+    color: rgb(120, 120, 120);
 }
 
 @font-face {
