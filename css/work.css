@@ -1,0 +1,48 @@
+.work__images {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.work__images-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%;
+}
+
+.work__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.work__image-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.work__image:hover {
+    filter: brightness(0.4);
+}
+
+.work__images-wrapper:hover .work__image-eye {
+    opacity: 1;
+}
+
+.work__loader {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(180, 180, 180);
+    padding: 35px 0;
+    cursor: pointer;
+}
