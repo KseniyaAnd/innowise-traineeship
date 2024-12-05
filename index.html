@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
@@ -33,7 +35,7 @@
             </div>
         </nav>
     </div>
-    <section class="banner">
+    <section class="banner" >
         <div class="banner__content">
             <h1>We Design and Develop</h1>
             <p class="p-text-style">We are a new design studio based in USA. We have over 20 years of combined
@@ -47,7 +49,7 @@
 
 </header>
 <main>
-    <section class="about-us">
+    <section class="about-us" data-aos="fade-up">
         <div class="about-us__content">
             <h2>About Us</h2>
             <p class="p-text-style">
@@ -61,7 +63,7 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" data-aos="fade-up">
         <div class="skills__wrapper">
             <div class="skills__content">
                 <h2>Professional Skills</h2>
@@ -98,7 +100,7 @@
         </div>
     </section>
 
-    <section class="work">
+    <section class="work" data-aos="fade-up">
         <div class="work__images">
             <div class="work__images-wrapper">
                 <img src="img/work-img-1.png" class="work__image" alt="Work Image 1">
@@ -137,6 +139,11 @@
             LOAD MORE WORKS
         </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </main>
 </body>
 </html>
