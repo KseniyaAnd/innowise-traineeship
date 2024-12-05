@@ -46,3 +46,9 @@
     padding: 35px 0;
     cursor: pointer;
 }
+
+@media (max-width: 905px) {
+    .work__images {
+        grid-template-columns: 50% 50%;
+    }
+}
