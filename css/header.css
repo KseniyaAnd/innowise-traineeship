@@ -8,21 +8,16 @@
 
 .header__container {
     display: flex;
-}
-
-.header__logo {
-    flex: 1;
+    justify-content: space-between;
+    margin: 30px 70px;
 }
 
 .header__nav {
-    flex: 1;
     display: flex;
 }
 
 .nav__list {
-    flex: 1;
     display: flex;
-    justify-content: flex-end;
     gap: 20px;
 }
 
@@ -92,7 +87,6 @@
         transform: translateX(300px);
         position: fixed;
         flex-direction: column;
-        justify-content: inherit;
         right: 0;
         top: 0;
         z-index: 99;
