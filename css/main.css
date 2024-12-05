@@ -31,17 +31,32 @@ dd {
     margin: 0;
 }
 
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Montserrat_medium', sans-serif;
 }
 
 button {
-    padding: 0;
     border: none;
     font: inherit;
-    color: inherit;
-    background-color: transparent;
     cursor: pointer;
+
+    width: 150px;
+    font-size: 12px;
+    background-color: rgb(84, 208, 203);
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+}
+
+button:hover {
+    background-color: rgb(88, 213, 208);
 }
 
 @font-face {
